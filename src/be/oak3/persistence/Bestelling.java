@@ -1,7 +1,11 @@
 package be.oak3.persistence;
 
+import be.oak3.model.Product;
+
+import java.util.stream.DoubleStream;
+
 public interface Bestelling extends Berekenbaar {
-    void voegProductenToe();
+    void voegProductToe(Product product);
 
     void sorteer();
 
@@ -9,11 +13,15 @@ public interface Bestelling extends Berekenbaar {
 
     void sorteerOpVolume();
 
-    void toonPerMerk();
+    void toonPerMerk(String merk);
 
     void toonGoedkopeProducten();
 
-    void zoekDuursteProduct();
+    Product zoekDuursteProduct();
+
+    void toonParfums();
+
+    DoubleStream totalePrijs();
 
 
 }

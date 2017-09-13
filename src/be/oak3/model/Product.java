@@ -1,9 +1,6 @@
 package be.oak3.model;
 
-import java.lang.reflect.Type;
-import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
 
 public abstract class Product implements Comparator<Product>, Comparable {
     private int productNummer;
@@ -87,9 +84,12 @@ public abstract class Product implements Comparator<Product>, Comparable {
 
     @Override
     public String toString() {
-        return "Lijst gesorteerd op natuurlijke volgorde:\n" +
-                productNummer + " merk:'" + merk + '\t' +
-                "naam:" + naam + '\t' + "volume: " + volume +
-                "\t prijs:" + prijs + "\t Code:" + getProductCode() ;
+//        return  productNummer + " merk:'" + merk + '\t' +
+//                "naam:" + naam + '\t' + "volume: " + volume +
+//                "\t prijs:" + prijs + "\t Code:" + getProductCode() + "\n" ;
+
+        return String.format("%-15d merk: %-20s naam: %-25s volume: %5dml \t prijs: %-10.2f Code: %-10s",
+                productNummer, merk, naam, volume, prijs, getProductCode());
+
     }
 }

@@ -1,8 +1,22 @@
 package be.oak3.model;
 
-public abstract class Deodorant extends Product {
+public class Deodorant extends Product {
 
-    private enum DeoType {VAPO,STICK};
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
+
+    @Override
+    public int compare(Product o1, Product o2) {
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+
+        return super.toString() + '\t' + soort;
+    }
     private DeoType soort;
 
     public Deodorant(int productNummer, String merk, String naam, int volume, double prijs, DeoType soort) {
@@ -10,10 +24,7 @@ public abstract class Deodorant extends Product {
         this.soort = soort;
     }
 
-    @Override
-    public String toString() {
-        return super.toString() + "\t" + soort;
-    }
+    public enum DeoType {VAPO, STICK}
 
 
 
