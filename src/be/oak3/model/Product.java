@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public abstract class Product implements Comparator<Product> {
+public abstract class Product implements Comparator<Product>, Comparable {
     private int productNummer;
     private String merk;
     private String naam;
