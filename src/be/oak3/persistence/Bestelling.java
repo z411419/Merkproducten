@@ -2,8 +2,6 @@ package be.oak3.persistence;
 
 import be.oak3.model.Product;
 
-import java.util.stream.DoubleStream;
-
 public interface Bestelling extends Berekenbaar {
     void voegProductToe(Product product);
 
@@ -21,7 +19,7 @@ public interface Bestelling extends Berekenbaar {
 
     void toonParfums();
 
-    DoubleStream totalePrijs();
+    Double totalePrijs();
 
 
 }

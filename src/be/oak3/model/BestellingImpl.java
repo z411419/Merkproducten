@@ -5,7 +5,6 @@ import be.oak3.persistence.Bestelling;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.DoubleStream;
 
 public class BestellingImpl implements Bestelling {
 
@@ -58,8 +57,8 @@ public class BestellingImpl implements Bestelling {
     }
 
     @Override
-    public DoubleStream totalePrijs() {
-        return bestelling.stream().mapToDouble(Product::getPrijs);
+    public Double totalePrijs() {
+        return bestelling.stream().mapToDouble(Product::getPrijs).sum();
     }
 
     @Override
