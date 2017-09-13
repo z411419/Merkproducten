@@ -39,8 +39,6 @@ public class TestApp {
 //
 //        System.out.printf("\nTotale prijs: €%.2f", bestelling.totalePrijs());
 
-        Product p1 = new Product(1,"Hugo Boss", "Pak", 5, 700);
-        System.out.println(p1.toString());
 
     }
 }

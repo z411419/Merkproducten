@@ -1,9 +1,11 @@
 package be.oak3.model;
 
 import java.lang.reflect.Type;
+import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 
-public class Product implements Comparator<Product> {
+public abstract class Product implements Comparator<Product> {
     private int productNummer;
     private String merk;
     private String naam;
@@ -59,11 +61,6 @@ public class Product implements Comparator<Product> {
     }
 
     @Override
-    public int compare(Product o1, Product o2) {
-        return 0;
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -82,15 +79,11 @@ public class Product implements Comparator<Product> {
         return (merk.substring(0,3) + naam.substring(0,3) + volume).toUpperCase().replace(" ","_");
     }
 
-    public static Comparator sorteerOpMerknaam(Product p1, Product p2){
-        return (Comparator<Product>) (o1, o2) -> {
-            Product p21 = o2;
 
-            return o1.getMerk().compareTo(p21.getMerk());
-        };
+    public static Comparator<Product> sorteerOpMerknaam(){
+            return(o1,o2) -> o1.getMerk().compareTo(o2.getMerk());
 
-
-    }
+        }
 
     @Override
     public String toString() {
