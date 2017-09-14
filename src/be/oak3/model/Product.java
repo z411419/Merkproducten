@@ -2,7 +2,7 @@ package be.oak3.model;
 
 import java.util.Comparator;
 
-public abstract class Product implements Comparable<Product> {
+public abstract class Product {
     private int productNummer;
     private String merk;
     private String naam;
@@ -48,10 +48,6 @@ public abstract class Product implements Comparable<Product> {
 
         }
 
-    @Override
-    public int compareTo(Product o) {
-        return 0;
-    }
 
     @Override
     public String toString() {
