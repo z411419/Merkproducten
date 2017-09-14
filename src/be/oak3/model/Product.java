@@ -2,7 +2,7 @@ package be.oak3.model;
 
 import java.util.Comparator;
 
-public abstract class Product implements Comparator<Product>, Comparable {
+public abstract class Product implements Comparable<Product> {
     private int productNummer;
     private String merk;
     private String naam;
@@ -34,16 +34,6 @@ public abstract class Product implements Comparator<Product>, Comparable {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Product producten = (Product) o;
-
-        return productNummer == producten.productNummer;
-    }
-
-    @Override
     public int hashCode() {
         return productNummer;
     }
@@ -57,6 +47,11 @@ public abstract class Product implements Comparator<Product>, Comparable {
             return(o1,o2) -> o1.getMerk().compareTo(o2.getMerk());
 
         }
+
+    @Override
+    public int compareTo(Product o) {
+        return 0;
+    }
 
     @Override
     public String toString() {

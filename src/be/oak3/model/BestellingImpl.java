@@ -4,6 +4,7 @@ import be.oak3.persistence.Bestelling;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class BestellingImpl implements Bestelling {
@@ -53,7 +54,8 @@ public class BestellingImpl implements Bestelling {
 
     @Override
     public Product zoekDuursteProduct() {
-        return Collections.max(bestelling);
+
+        return Collections.max(bestelling, Comparator.comparing(p -> p.getPrijs()));
     }
 
     @Override
@@ -63,7 +65,9 @@ public class BestellingImpl implements Bestelling {
 
     @Override
     public void toonParfums() {
-        bestelling.stream().forEach(System.out::println);
+        bestelling.stream().filter(
+                product -> product instanceof Parfum).forEach(System.out::println);
+
     }
 
 }

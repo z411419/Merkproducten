@@ -8,13 +8,4 @@ public class Parfum extends Product {
 
     }
 
-    @Override
-    public int compareTo(Object o) {
-        return 0;
-    }
-
-    @Override
-    public int compare(Product o1, Product o2) {
-        return 0;
-    }
 }

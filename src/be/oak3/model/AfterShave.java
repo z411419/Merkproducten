@@ -9,15 +9,6 @@ public class AfterShave extends Product {
         this.soort = soort;
     }
 
-    @Override
-    public int compareTo(Object o) {
-        return 0;
-    }
-
-    @Override
-    public int compare(Product o1, Product o2) {
-        return 0;
-    }
 
     @Override
     public String toString() {
