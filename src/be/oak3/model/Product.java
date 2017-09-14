@@ -2,7 +2,7 @@ package be.oak3.model;
 
 import java.util.Comparator;
 
-public abstract class Product implements Comparator<Product>, Comparable {
+public abstract class Product {
     private int productNummer;
     private String merk;
     private String naam;
