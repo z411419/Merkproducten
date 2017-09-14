@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ec65b58-404d-4633-841a-a099bdd80e9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/BestellingImpl.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/BestellingImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/Deodorant.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/Deodorant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/Product.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/persistence/Berekenbaar.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/persistence/Berekenbaar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/persistence/Bestelling.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/persistence/Bestelling.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/persistence/TestApp.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/persistence/TestApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/AfterShave$Soort.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/AfterShave$Soort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/AfterShave.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/AfterShave.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/Deodorant$DeoType.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/Deodorant$DeoType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/Parfum.class" afterPath="$PROJECT_DIR$/out/production/Merkproducten/be/oak3/model/Parfum.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/be/oak3/model/AfterShave.java" afterPath="$PROJECT_DIR$/src/be/oak3/model/AfterShave.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/be/oak3/model/BestellingImpl.java" afterPath="$PROJECT_DIR$/src/be/oak3/model/BestellingImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/be/oak3/model/Deodorant.java" afterPath="$PROJECT_DIR$/src/be/oak3/model/Deodorant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/be/oak3/model/Parfum.java" afterPath="$PROJECT_DIR$/src/be/oak3/model/Parfum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/be/oak3/model/Product.java" afterPath="$PROJECT_DIR$/src/be/oak3/model/Product.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,8 +61,8 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/oak3/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="882">
+              <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding>
                 <element signature="e#1195#1196#0" expanded="true" />
                 <element signature="e#1219#1220#0" expanded="true" />
@@ -78,11 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestellingImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Berekenbaar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/be/oak3/persistence/Berekenbaar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestellingImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/oak3/model/BestellingImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="57" column="84" lean-forward="true" selection-start-line="57" selection-start-column="84" selection-end-line="57" selection-end-column="84" />
+            <state relative-caret-position="966">
+              <caret line="51" column="100" lean-forward="true" selection-start-line="51" selection-start-column="100" selection-end-line="51" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -442,12 +445,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505373106236</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Final">
+      <created>1505374349384</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1505374349384</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1178" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -457,8 +466,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.50216216" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4215886" sideWeight="0.49675676" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28615072" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4215886" sideWeight="0.49675676" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28615072" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -511,7 +520,8 @@
     <MESSAGE value="Product class" />
     <MESSAGE value="Interface Berekenbaar &amp; Bestelling" />
     <MESSAGE value="TestApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestApp" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -652,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/oak3/persistence/Berekenbaar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -698,18 +700,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/oak3/model/AfterShave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/oak3/model/Deodorant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/oak3/model/BestellingImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="51" column="100" lean-forward="true" selection-start-line="51" selection-start-column="100" selection-end-line="51" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/oak3/model/AfterShave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -724,8 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/oak3/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        <state relative-caret-position="882">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding>
             <element signature="e#1195#1196#0" expanded="true" />
             <element signature="e#1219#1220#0" expanded="true" />
@@ -733,10 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/oak3/model/BestellingImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/be/oak3/persistence/Berekenbaar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="84" lean-forward="true" selection-start-line="57" selection-start-column="84" selection-end-line="57" selection-end-column="84" />
+        <state relative-caret-position="63">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding />
         </state>
       </provider>
