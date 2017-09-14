@@ -7,7 +7,7 @@ import java.util.List;
 
 public class TestApp {
     public static void main(String[] args) {
-        System.out.printf("Oplossing van %s %s\n", "Kenneth Van Gijsel ",
+        System.out.printf("Oplossing van %s %s\n", "Tom Claes ",
                 "Java Instructeur");
 
         Bestelling bestelling = new BestellingImpl();

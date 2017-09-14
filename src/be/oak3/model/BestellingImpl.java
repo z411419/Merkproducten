@@ -52,7 +52,7 @@ public class BestellingImpl implements Bestelling {
         bestelling.stream().filter(product -> product.getPrijs() < 50).forEach(System.out::println);
     }
 
-    @Override
+
     public Product zoekDuursteProduct() {
 
         return Collections.max(bestelling, Comparator.comparing(p -> p.getPrijs()));
