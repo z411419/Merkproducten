@@ -9,7 +9,7 @@ public abstract class Product {
     private int volume;
     private double prijs;
 
-    public Product(int productNummer, String merk, String naam, int volume, double prijs) {
+    Product(int productNummer, String merk, String naam, int volume, double prijs) {
         this.productNummer = productNummer;
         this.merk = merk;
         this.naam = naam;
@@ -17,20 +17,25 @@ public abstract class Product {
         this.prijs = prijs;
     }
 
-    public void setProductNummer(int productNummer) {
-        this.productNummer = productNummer;
+    static Comparator<Product> sorteerOpMerknaam() {
+        return Comparator.comparing(Product::getMerk);
+
     }
 
-    public String getMerk() {
+    String getMerk() {
         return merk;
     }
 
-    public int getVolume() {
+    int getVolume() {
         return volume;
     }
 
-    public double getPrijs() {
+    double getPrijs() {
         return prijs;
+    }
+
+    int getProductNummer() {
+        return productNummer;
     }
 
     @Override
@@ -38,15 +43,13 @@ public abstract class Product {
         return productNummer;
     }
 
-    public String getProductCode(){
-        return (merk.substring(0,3) + naam.substring(0,3) + volume).toUpperCase().replace(" ","_");
+    void setProductNummer(int productNummer) {
+        this.productNummer = productNummer;
     }
 
-
-    public static Comparator<Product> sorteerOpMerknaam(){
-            return(o1,o2) -> o1.getMerk().compareTo(o2.getMerk());
-
-        }
+    private String getProductCode() {
+        return (merk.substring(0,3) + naam.substring(0,3) + volume).toUpperCase().replace(" ","_");
+    }
 
 
     @Override

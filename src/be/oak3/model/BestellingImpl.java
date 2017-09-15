@@ -27,7 +27,7 @@ public class BestellingImpl implements Bestelling {
     @Override
     public void sorteer() {
         //Collections.sort(bestelling, Comparator.naturalOrder());
-        bestelling.stream().forEach(System.out::println);
+        bestelling.sort(Comparator.comparing(Product::getProductNummer));
     }
 
     @Override
@@ -37,7 +37,7 @@ public class BestellingImpl implements Bestelling {
 
     @Override
     public void sorteerOpVolume() {
-        bestelling.stream().sorted((o1, o2) -> o1.getVolume() - o2.getVolume()).forEach(System.out::println);
+        bestelling.stream().sorted(Comparator.comparingInt(Product::getVolume)).forEach(System.out::println);
     }
 
     @Override
@@ -55,7 +55,7 @@ public class BestellingImpl implements Bestelling {
 
     public Product zoekDuursteProduct() {
 
-        return Collections.max(bestelling, Comparator.comparing(p -> p.getPrijs()));
+        return Collections.max(bestelling, Comparator.comparing(Product::getPrijs));
     }
 
     @Override
