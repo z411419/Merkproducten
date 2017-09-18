@@ -1,8 +1,10 @@
 package be.oak3.model;
 
 import be.oak3.persistence.Bestelling;
+import com.google.common.collect.Lists;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -10,7 +12,8 @@ import java.util.List;
 public class BestellingImpl implements Bestelling {
 
     private static int productNummer = 1000;
-    private List<Product> bestelling = new ArrayList<>();
+    private static final Logger logger = LogManager.getLogger();
+    private List<Product> bestelling = Lists.newArrayList();
 
     public BestellingImpl() {
 
@@ -27,29 +30,29 @@ public class BestellingImpl implements Bestelling {
     @Override
     public void sorteer() {
         //Collections.sort(bestelling, Comparator.naturalOrder());
-        bestelling.sort(Comparator.comparing(Product::getProductNummer));
+        bestelling.stream().sorted(Comparator.comparing(Product::getProductNummer)).forEach(logger::info);
     }
 
     @Override
     public void sorteerOpMerk() {
-        bestelling.stream().sorted(Product.sorteerOpMerknaam()).forEach(System.out::println);
+        bestelling.stream().sorted(Product.sorteerOpMerknaam()).forEach(logger::info);
     }
 
     @Override
     public void sorteerOpVolume() {
-        bestelling.stream().sorted(Comparator.comparingInt(Product::getVolume)).forEach(System.out::println);
+        bestelling.stream().sorted(Comparator.comparingInt(Product::getVolume)).forEach(logger::info);
     }
 
     @Override
     public void toonPerMerk(String merk) {
 
-        bestelling.stream().filter(product -> product.getMerk().equals(merk)).forEach(System.out::println);
+        bestelling.stream().filter(product -> product.getMerk().equals(merk)).forEach(logger::info);
 
     }
 
     @Override
     public void toonGoedkopeProducten() {
-        bestelling.stream().filter(product -> product.getPrijs() < 50).forEach(System.out::println);
+        bestelling.stream().filter(product -> product.getPrijs() < 50).forEach(logger::info);
     }
 
 
@@ -66,7 +69,7 @@ public class BestellingImpl implements Bestelling {
     @Override
     public void toonParfums() {
         bestelling.stream().filter(
-                product -> product instanceof Parfum).forEach(System.out::println);
+                product -> product instanceof Parfum).forEach(logger::info);
 
     }
 

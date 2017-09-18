@@ -1,5 +1,7 @@
 package be.oak3.model;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Comparator;
 
 public abstract class Product {
@@ -48,7 +50,9 @@ public abstract class Product {
     }
 
     private String getProductCode() {
-        return (merk.substring(0, 3) + naam.substring(0, 3) + volume).toUpperCase().replace(" ", "_");
+        //return (merk.substring(0, 3) + naam.substring(0, 3) + volume).toUpperCase().replace(" ", "_");
+        return (StringUtils.substring(merk, 0, 3) + StringUtils.substring(naam, 0, 3) + volume)
+                .toUpperCase().replace(" ", "_");
     }
 
     @Override
