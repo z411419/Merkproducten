@@ -2,6 +2,8 @@ package be.oak3.persistence;
 
 import be.oak3.model.Product;
 
+import java.util.List;
+
 public interface Bestelling extends Berekenbaar {
     void voegProductToe(Product product);
 
@@ -11,15 +13,21 @@ public interface Bestelling extends Berekenbaar {
 
     void sorteerOpVolume();
 
-    void toonPerMerk(String merk);
+    //void toonPerMerk(String merk);
 
-    void toonGoedkopeProducten();
+    //void toonGoedkopeProducten();
 
     Product zoekDuursteProduct();
 
-    void toonParfums();
+    //void toonParfums();
 
     Double totalePrijs();
+
+    List<Product> lijstVanBepaaldMerk(String Merk);
+
+    List<Product> lijstVanParfums();
+
+    List<Product> lijstVanGoedkopeProducten();
 
 
 }
