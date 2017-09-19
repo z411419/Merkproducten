@@ -23,7 +23,7 @@ public interface Bestelling extends Berekenbaar {
 
     Double totalePrijs();
 
-    List<Product> lijstVanBepaaldMerk(String Merk);
+    List<Product> lijstVanBepaaldMerk(String merk);
 
     List<Product> lijstVanParfums();
 

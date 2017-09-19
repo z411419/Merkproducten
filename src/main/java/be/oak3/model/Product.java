@@ -25,23 +25,27 @@ public abstract class Product {
 
     }
 
-    String getMerk() {
+    public String getMerk() {
         return merk;
     }
 
-    int getVolume() {
+    public String getNaam() {
+        return naam;
+    }
+
+    public int getVolume() {
         return volume;
     }
 
-    double getPrijs() {
+    public double getPrijs() {
         return prijs;
     }
 
-    int getProductNummer() {
+    public int getProductNummer() {
         return productNummer;
     }
 
-    void setProductNummer(int productNummer) {
+    public void setProductNummer(int productNummer) {
         this.productNummer = productNummer;
     }
 
@@ -50,7 +54,7 @@ public abstract class Product {
         return productNummer;
     }
 
-    private String getProductCode() {
+    public String getProductCode() {
         //return (merk.substring(0, 3) + naam.substring(0, 3) + volume).toUpperCase().replace(" ", "_");
         return join(left(merk, 3), left(naam, 3), volume)
                 .toUpperCase().replace(" ", "_");
