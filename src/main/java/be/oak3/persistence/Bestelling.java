@@ -29,5 +29,7 @@ public interface Bestelling extends Berekenbaar {
 
     List<Product> lijstVanGoedkopeProducten();
 
+    Product getBestelling(int index);
+
 
 }

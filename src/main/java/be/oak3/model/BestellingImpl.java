@@ -19,6 +19,10 @@ public class BestellingImpl implements Bestelling {
     public BestellingImpl() {
     }
 
+    public Product getBestelling(int index) {
+        return bestelling.get(index);
+    }
+
     @Override
     public void voegProductToe(Product artikel) {
         artikel.setProductNummer(productNummer += 1);
@@ -27,18 +31,22 @@ public class BestellingImpl implements Bestelling {
 
     @Override
     public void sorteer() {
+        Collections.sort(bestelling, Comparator.comparing(Product::getProductNummer));
         //Collections.sort(bestelling, Comparator.naturalOrder());
+
         bestelling.stream().sorted(Comparator.comparing(Product::getProductNummer)).forEach(logger::info);
         //logger.info(productNummer);
     }
 
     @Override
     public void sorteerOpMerk() {
+        Collections.sort(bestelling, Comparator.comparing(Product::getMerk));
         bestelling.stream().sorted(Product.sorteerOpMerknaam()).forEach(logger::info);
     }
 
     @Override
     public void sorteerOpVolume() {
+        Collections.sort(bestelling, Comparator.comparing(Product::getVolume));
         bestelling.stream().sorted(Comparator.comparingInt(Product::getVolume)).forEach(logger::info);
     }
 
@@ -65,7 +73,7 @@ public class BestellingImpl implements Bestelling {
 
     @Override
     public List<Product> lijstVanBepaaldMerk(String merk) {
-        List<Product> result = bestelling.stream().filter(product -> product.equals(merk)).collect(Collectors.toList());
+        List<Product> result = bestelling.stream().filter(product -> product.getMerk().equals(merk)).collect(Collectors.toList());
         return result;
     }
 

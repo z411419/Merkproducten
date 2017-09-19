@@ -70,4 +70,6 @@ public abstract class Product {
                 productNummer, merk, naam, volume, prijs, getProductCode());
 
     }
+
+
 }
