@@ -20,6 +20,7 @@ public class TestApp {
         System.out.println("Lijst gesorteerd op natuurlijke volgorde: ");
         bestelling.sorteer();
 
+
         System.out.println("\nLijst gesorteerd op merknaam: ");
         bestelling.sorteerOpMerk();
 
