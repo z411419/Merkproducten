@@ -19,14 +19,15 @@ public class BestellingImpl implements Bestelling {
     public BestellingImpl() {
     }
 
-    public Product getBestelling(int index) {
-        return bestelling.get(index);
+    public List<Product> getBestelling() {
+        return bestelling;
     }
 
     @Override
     public void voegProductToe(Product artikel) {
-        artikel.setProductNummer(productNummer += 1);
+        artikel.setProductNummer(productNummer);
         bestelling.add(artikel);
+        productNummer++;
     }
 
     @Override

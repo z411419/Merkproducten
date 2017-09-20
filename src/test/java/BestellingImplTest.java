@@ -4,7 +4,7 @@ import be.oak3.model.Parfum;
 import be.oak3.model.Product;
 import be.oak3.persistence.Bestelling;
 import be.oak3.persistence.Data;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.List;
@@ -13,11 +13,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class BestellingImplTest {
 
-    private Bestelling bestelling;
+    private static Bestelling bestelling;
 
 
-    @Before
-    public void init() {
+    @BeforeClass
+    public static void init() {
         List<Product> lijst = Data.getData();
         bestelling = new BestellingImpl();
         for (Product artikel : lijst) {
@@ -31,15 +31,15 @@ public class BestellingImplTest {
                 AfterShave.Soort.VAPO);
         bestelling.voegProductToe(product);
 
-        assertThat(bestelling.getBestelling(11)).extracting(Product::getMerk).contains("Yves Saint Lauren");
+        assertThat(bestelling.getBestelling().get(11)).extracting(Product::getMerk).contains("Yves Saint Lauren");
     }
 
     @Test
     public void sorteerTest() {
         bestelling.sorteer();
-        assertThat(bestelling.getBestelling(0)).isNotNull();
-        assertThat(bestelling.getBestelling(0).getProductNummer()).isEqualTo(1001);
-        assertThat(bestelling.getBestelling(1).getProductNummer()).isEqualTo(1002);
+        assertThat(bestelling.getBestelling().get(0)).isNotNull();
+        assertThat(bestelling.getBestelling().get(0).getProductNummer()).isEqualTo(1000);
+        assertThat(bestelling.getBestelling().get(1).getProductNummer()).isEqualTo(1001);
 
         //System.out.println(bestelling);
         assertThat(bestelling).isInstanceOf(BestellingImpl.class);
@@ -49,8 +49,8 @@ public class BestellingImplTest {
     public void sorteerOpMerkTest() {
         bestelling.sorteerOpMerk();
 
-        assertThat(bestelling.getBestelling(0).getProductNummer()).isEqualTo(1002);
-        assertThat(bestelling.getBestelling(1).getProductNummer()).isEqualTo(1011);
+        assertThat(bestelling.getBestelling().get(0).getProductNummer()).isEqualTo(1001);
+        assertThat(bestelling.getBestelling().get(1).getProductNummer()).isEqualTo(1010);
 
         //System.out.println(bestelling);
         assertThat(bestelling).isInstanceOf(BestellingImpl.class);
@@ -58,10 +58,11 @@ public class BestellingImplTest {
 
     @Test
     public void sorteerOpMerkVolume() {
+
         bestelling.sorteerOpVolume();
 
-        assertThat(bestelling.getBestelling(0).getProductNummer()).isEqualTo(1009);
-        assertThat(bestelling.getBestelling(1).getProductNummer()).isEqualTo(1004);
+        assertThat(bestelling.getBestelling().get(0).getProductNummer()).isEqualTo(1008);
+        assertThat(bestelling.getBestelling().get(1).getProductNummer()).isEqualTo(1003);
 
         //System.out.println(bestelling);
         assertThat(bestelling).isInstanceOf(BestellingImpl.class);
