@@ -5,7 +5,7 @@ import java.util.Comparator;
 import static org.apache.commons.lang3.StringUtils.join;
 import static org.apache.commons.lang3.StringUtils.left;
 
-public abstract class Product {
+public abstract class Product implements Comparable<Product> {
     private int productNummer;
     private String merk;
     private String naam;
@@ -58,6 +58,11 @@ public abstract class Product {
         //return (merk.substring(0, 3) + naam.substring(0, 3) + volume).toUpperCase().replace(" ", "_");
         return join(left(merk, 3), left(naam, 3), volume)
                 .toUpperCase().replace(" ", "_");
+    }
+
+    @Override
+    public int compareTo(Product p) {
+        return productNummer - p.productNummer;
     }
 
     @Override

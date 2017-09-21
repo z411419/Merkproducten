@@ -84,15 +84,22 @@ public class BestellingImplTest {
         //System.out.println(bestelling.lijstVanBepaaldMerk("BVLGARI"));
         //System.out.println(bestelling.lijstVanParfums());
         assertThat(bestelling.lijstVanBepaaldMerk("BVLGARI")).isNotNull();
+        assertThat(bestelling.lijstVanBepaaldMerk("BVLGARI")).isNotEmpty();
         assertThat(bestelling.lijstVanBepaaldMerk("Georgio Armani")).extracting(Product::getMerk).containsOnly("Georgio Armani");
     }
 
     @Test
     public void lijstVanParfumsTest() {
         assertThat(bestelling.lijstVanParfums()).isNotNull();
-        assertThat(bestelling.lijstVanParfums()).hasSize(7);
+        int i = 0;
+        List<Product> temp = bestelling.getBestelling();
+        for (Product product : temp) if (product instanceof Parfum) i++;
+        assertThat(bestelling.lijstVanParfums()).hasSize(i);
         assertThat(bestelling.lijstVanParfums()).hasOnlyElementsOfType(Parfum.class);
         assertThat(bestelling.lijstVanParfums().get(0)).isInstanceOf(Parfum.class);
+
+        long temp1 = bestelling.getBestelling().stream().filter(product -> product.getMerk().equalsIgnoreCase("Georgio Armani")).count();
+        System.out.println(temp1);
     }
 
 

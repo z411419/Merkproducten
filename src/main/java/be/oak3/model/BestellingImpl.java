@@ -32,7 +32,8 @@ public class BestellingImpl implements Bestelling {
 
     @Override
     public void sorteer() {
-        Collections.sort(bestelling, Comparator.comparing(Product::getProductNummer));
+        bestelling.sort(Comparator.naturalOrder());
+
         //Collections.sort(bestelling, Comparator.naturalOrder());
 
         bestelling.stream().sorted(Comparator.comparing(Product::getProductNummer)).forEach(logger::info);

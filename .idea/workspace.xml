@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ec65b58-404d-4633-841a-a099bdd80e9a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/oak3/UI/GUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/oak3/UI/Swing.java" afterPath="$PROJECT_DIR$/src/main/java/be/oak3/UI/Swing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/oak3/persistence/Data.java" afterPath="$PROJECT_DIR$/src/main/java/be/oak3/persistence/Data.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/oak3/model/BestellingImpl.java" afterPath="$PROJECT_DIR$/src/main/java/be/oak3/model/BestellingImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/oak3/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/be/oak3/model/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BestellingImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/BestellingImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,63 +22,67 @@
       <file leaf-file-name="BestellingImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/BestellingImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="504">
+              <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AfterShave.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/AfterShave.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
               <folding>
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1578#1579#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestellingImplTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BestellingImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BestellingImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="189">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/UI/GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Swing.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Swing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/UI/Swing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+            <state relative-caret-position="257">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="69" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1890#1891#0" expanded="true" />
-                <element signature="e#1917#1918#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-              <folding>
-                <marker date="1505903563770" expanded="true" signature="2284:3919" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="2303:3715" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="2324:2906" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="2515:2883" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="2545:2850" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="2580:2819" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="2682:2783" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="2928:3696" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="3123:3673" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="3155:3643" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="3285:3377" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="3417:3610" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="3463:3569" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="3736:3906" ph="..." />
-                <marker date="1505903563770" expanded="true" signature="3759:3885" ph="..." />
               </folding>
             </state>
           </provider>
@@ -85,8 +91,8 @@
       <file leaf-file-name="TestApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/persistence/TestApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -95,8 +101,8 @@
       <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/persistence/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -155,12 +161,13 @@
         <option value="$PROJECT_DIR$/src/test/java/ProductTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/be/oak3/persistence/TestApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/oak3/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/oak3/persistence/Bestelling.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/oak3/model/BestellingImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BestellingImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/oak3/persistence/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/oak3/UI/Swing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/oak3/UI/GUI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BestellingImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/oak3/model/BestellingImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/oak3/model/Product.java" />
       </list>
     </option>
   </component>
@@ -178,8 +185,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2104" />
-    <option name="y" value="120" />
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
     <option name="width" value="1550" />
     <option name="height" value="838" />
   </component>
@@ -199,8 +206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,8 +308,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Swing">
+  <component name="RunManager" selected="JUnit.BestellingImplTest.lijstVanBepaaldMerkTest">
     <configuration name="BestellingImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Merkproducten" />
@@ -351,14 +358,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BestellingImplTest.sorteerOpMerkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BestellingImplTest.lijstVanBepaaldMerkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Merkproducten" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BestellingImplTest" />
-      <option name="METHOD_NAME" value="sorteerOpMerkTest" />
+      <option name="METHOD_NAME" value="lijstVanBepaaldMerkTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -371,14 +378,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BestellingImplTest.sorteerOpMerkVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BestellingImplTest.lijstVanParfumsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Merkproducten" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BestellingImplTest" />
-      <option name="METHOD_NAME" value="sorteerOpMerkVolume" />
+      <option name="METHOD_NAME" value="lijstVanParfumsTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -391,25 +398,24 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BestellingImplTest.sorteerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Merkproducten" />
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="be.oak3.UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="be.oak3.UI.GUI" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BestellingImplTest" />
-      <option name="METHOD_NAME" value="sorteerTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="Merkproducten" />
       <envs />
-      <patterns />
     </configuration>
     <configuration name="Swing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -524,19 +530,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.sorteerTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BestellingImplTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.sorteerOpMerkTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.sorteerOpMerkVolume" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Swing" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BestellingImplTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Swing" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GUI" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.lijstVanParfumsTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.lijstVanBepaaldMerkTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Swing" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BestellingImplTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.sorteerOpMerkVolume" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.sorteerOpMerkTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.sorteerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.lijstVanBepaaldMerkTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BestellingImplTest.lijstVanParfumsTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GUI" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BestellingImplTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Swing" />
       </list>
     </recent_temporary>
   </component>
@@ -684,33 +690,40 @@
       <option name="project" value="LOCAL" />
       <updated>1505912197309</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Swing impl">
+      <created>1505915552843</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1505915552843</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BestellingImplTest - 2017.09.20 at 09h 00m 27s.xml">
-      <configuration name="BestellingImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestellingImplTest - 2017.09.20 at 09h 01m 00s.xml">
-      <configuration name="BestellingImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestellingImplTest - 2017.09.20 at 09h 03m 45s.xml">
-      <configuration name="BestellingImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestellingImplTest - 2017.09.20 at 09h 06m 58s.xml">
-      <configuration name="BestellingImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestellingImplTest - 2017.09.20 at 09h 08m 08s.xml">
-      <configuration name="BestellingImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestellingImplTest - 2017.09.20 at 09h 10m 13s.xml">
-      <configuration name="BestellingImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestellingImplTest - 2017.09.20 at 09h 11m 00s.xml">
-      <configuration name="BestellingImplTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BestellingImplTest - 2017.09.20 at 12h 33m 10s.xml">
       <configuration name="BestellingImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BestellingImplTest - 2017.09.21 at 11h 59m 50s.xml">
+      <configuration name="BestellingImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BestellingImplTest - 2017.09.21 at 12h 00m 01s.xml">
+      <configuration name="BestellingImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BestellingImplTest - 2017.09.21 at 12h 00m 07s.xml">
+      <configuration name="BestellingImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BestellingImplTest_lijstVanBepaaldMerkTest - 2017.09.21 at 14h 53m 07s.xml">
+      <configuration name="BestellingImplTest.lijstVanBepaaldMerkTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BestellingImplTest_lijstVanParfumsTest - 2017.09.21 at 13h 54m 25s.xml">
+      <configuration name="BestellingImplTest.lijstVanParfumsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BestellingImplTest_lijstVanParfumsTest - 2017.09.21 at 13h 55m 58s.xml">
+      <configuration name="BestellingImplTest.lijstVanParfumsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BestellingImplTest_lijstVanParfumsTest - 2017.09.21 at 14h 43m 09s.xml">
+      <configuration name="BestellingImplTest.lijstVanParfumsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BestellingImplTest_sorteerOpMerkVolume - 2017.09.20 at 09h 08m 27s.xml">
       <configuration name="BestellingImplTest.sorteerOpMerkVolume" configurationId="JUnit" />
@@ -731,12 +744,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.50216216" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41446027" sideWeight="0.49675676" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22708757" sideWeight="0.49675676" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28615072" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26432434" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22810811" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -744,30 +757,11 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.50216216" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41446027" sideWeight="0.49675676" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28615072" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22432433" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -819,19 +813,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/persistence/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -929,9 +915,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -939,10 +923,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -998,9 +979,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,10 +987,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1113">
           <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-          <folding>
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,33 +1077,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/AfterShave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/persistence/Berekenbaar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1146,94 +1099,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/Product.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="693">
+          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/persistence/Berekenbaar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/persistence/Bestelling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="609">
           <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/persistence/TestApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <marker date="1505903563770" expanded="true" signature="2284:3919" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="2303:3715" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="2324:2906" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="2515:2883" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="2545:2850" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="2580:2819" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="2682:2783" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="2928:3696" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="3123:3673" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="3155:3643" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="3285:3377" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="3417:3610" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="3463:3569" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="3736:3906" ph="..." />
-            <marker date="1505903563770" expanded="true" signature="3759:3885" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/BestellingImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BestellingImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/persistence/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/persistence/TestApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/UI/Swing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        <state relative-caret-position="257">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/BestellingImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/model/AfterShave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/oak3/UI/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BestellingImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
