@@ -19,7 +19,7 @@ public class BestellingDAO implements Bestelling {
         addToList(sql);
     }
 
-    public void addToList(String sql) {
+    private void addToList(String sql) {
         bestelling.clear();
         try (Connection con = getConnection(); PreparedStatement stmt = con.prepareStatement(sql)) {
             ResultSet rs = stmt.executeQuery();
@@ -77,6 +77,7 @@ public class BestellingDAO implements Bestelling {
             Deodorant p = (Deodorant) product;
             soort = 2;
             type = p.getSoort().ordinal();
+            System.out.println(type);
         } else if (product instanceof AfterShave) {
             AfterShave p = (AfterShave) product;
             soort = 3;
@@ -94,13 +95,19 @@ public class BestellingDAO implements Bestelling {
 
         String sql = "insert into producten values (null,?,?,?,?,?,?,?)";
         try (Connection conn = getConnection(); PreparedStatement stmt = conn.prepareStatement(sql)) {
-            stmt.setString(0, merk);
-            stmt.setString(1, naam);
-            stmt.setInt(2, volume);
-            stmt.setDouble(3, prijs);
-            stmt.setString(4, code);
-            stmt.setInt(5, soort);
-            stmt.setInt(6, type);
+            stmt.setString(1, merk);
+            stmt.setString(2, naam);
+            stmt.setInt(3, volume);
+            stmt.setDouble(4, prijs);
+            stmt.setString(5, code);
+            stmt.setInt(6, soort);
+
+            if (type != null) {
+                stmt.setInt(7, type);
+            } else stmt.setNull(7, Types.INTEGER);
+            System.out.println(stmt);
+
+            stmt.executeUpdate();
 
         } catch (SQLException e) {
             e.printStackTrace();

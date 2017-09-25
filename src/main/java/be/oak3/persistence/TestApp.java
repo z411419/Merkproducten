@@ -1,6 +1,8 @@
 package be.oak3.persistence;
 
+import be.oak3.model.BestellingDAO;
 import be.oak3.model.BestellingImpl;
+import be.oak3.model.Parfum;
 import be.oak3.model.Product;
 
 import java.util.List;
@@ -40,6 +42,9 @@ public class TestApp {
         System.out.println("\nDuurste product:\n" + product);
 
         System.out.printf("\nTotale prijs: €%.2f", bestelling.totalePrijs());
+
+        Bestelling test = new BestellingDAO();
+        test.voegProductToe(new Parfum(0, "TOM", "T", 50, 57));
 
 
     }
