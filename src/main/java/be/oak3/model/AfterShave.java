@@ -17,4 +17,8 @@ public class AfterShave extends Product {
     }
 
     public enum Soort {VAPO, GEL}
+
+    Soort getSoort() {
+        return soort;
+    }
 }

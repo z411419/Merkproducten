@@ -20,4 +20,7 @@ public class Deodorant extends Product {
     public enum DeoType {VAPO, STICK}
 
 
+    DeoType getSoort() {
+        return soort;
+    }
 }

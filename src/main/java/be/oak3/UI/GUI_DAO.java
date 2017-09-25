@@ -1,17 +1,16 @@
 package be.oak3.UI;
 
-import be.oak3.model.BestellingImpl;
+import be.oak3.model.BestellingDAO;
 import be.oak3.model.Product;
 import be.oak3.persistence.Bestelling;
-import be.oak3.persistence.Data;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;
 
-public class GUI extends JFrame {
+public class GUI_DAO extends JFrame {
 
-    private Bestelling order;
+    private static Bestelling order;
     private JList<Product> lstProducts;
     private JButton btnMerk;
     private JButton btnBepaaldMerk;
@@ -25,16 +24,16 @@ public class GUI extends JFrame {
     private JLabel lblList;
     private JLabel lblTotaal;
 
-    public GUI() {
+
+    public GUI_DAO() {
         initComponents();
         layoutComponents();
         initListeners();
     }
 
     public static void main(String[] args) {
-        new GUI();
+        new GUI_DAO();
     }
-
 
     private void initComponents() {
 
@@ -43,13 +42,12 @@ public class GUI extends JFrame {
         setLocation(100, 100);
 
         //Data inladen
-        List<Product> artikels = Data.getData();
+        order = new BestellingDAO();
+
         //System.out.println(artikels);
-        order = new BestellingImpl();
-        for (Product artikel : artikels) {
-            order.voegProductToe(artikel);
-        }
-        System.out.println(order.getBestelling().toArray());
+
+
+        //System.out.println(order.getBestelling().toArray());
         lstProducts = new JList<>();
         lstProducts.setListData(order.getBestelling().toArray(new Product[0]));
 
